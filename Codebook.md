@@ -1,6 +1,6 @@
-##Code Book of Getting and Cleaning UCI Samsung Smartphone Data
+## Code Book of Getting and Cleaning UCI Samsung Smartphone Data
 
-#1. Data
+# 1. Data
 All information concerning the source of the data and the experiments performed to obtain the data can be found here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -26,7 +26,7 @@ The training set included twenty-one subjects. [1] 1 3 5 6 7 8 11 14 15 16 17 19
 The test set included nine subjects. [1] 2 4 9 10 12 13 18 20 24
 
 
-#2. Variables
+# 2. Variables
 
 Variables are transformed from the the features listed in the file "features.txt". Transformation process is described in the next section. Here is the list of 88 variables.
 
@@ -119,7 +119,7 @@ Variables are transformed from the the features listed in the file "features.txt
 	"angleygravitymean"
 	"anglezgravitymean"
 
-#3. Transformation
+# 3. Transformation
 
 	- The test(9 subjects) & train(21 subjects) subject sets are merged. 
 	- The test(9 subjects) & train(21 subjects) activity sets are merged. 
